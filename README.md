@@ -14,6 +14,14 @@ Great! Let’s dive into **Section 1: Hadoop Basics** in detail. This is the fou
 Imagine Flipkart storing billions of product click logs daily. A single server can’t handle this, but Hadoop splits the data across hundreds of servers and processes it in parallel.
 
 ---
+Category,Tool,What it does
+Storage,HDFS,Stores massive files across many computers.
+Resources,YARN,Manages CPU/RAM for the cluster.
+Processing,Spark / MapReduce,"The ""engines"" that crunch the data."
+SQL Query,Hive,Lets you use SQL to talk to Big Data.
+NoSQL,HBase,"Real-time, fast access to single records."
+Ingestion,Sqoop / Flume,Moves data into Hadoop (from DBs or Logs).
+Management,ZooKeeper / Oozie,Coordinates and schedules the work.
 
 ## 📂 **1.2 HDFS (Hadoop Distributed File System)**
 - **Purpose:** Store massive datasets reliably across multiple machines.
